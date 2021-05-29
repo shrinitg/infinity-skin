@@ -3,7 +3,6 @@
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-signin-client_id" content="929966617840-u4tuomme1m7a8k6b2i102jk8k5p19kfv.apps.googleusercontent.com">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -35,14 +34,22 @@
           <section class="google_login">
             <div class="social_logins">
               <h4 style="text-align: center; margin-top: -1.5rem;">Let's Get Started</h4>
-              <div class="g-signin2 google_signin" data-onsuccess="onSignIn"></div>
+              <div class='g-sign-in-button'>
+                <div class=content-wrapper>
+                <div class='logo-wrapper'>  
+                  <img src='https://developers.google.com/identity/images/g-logo.png'>
+                  </div>  
+                  <span class='text-container'> 
+                    <span>Google Signin</span>
+                  </span>
+                </div>  
+              </div>
             </div>
           </section>
         </div>
       </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <script src="https://apis.google.com/js/platform.js" async defer></script>
   
   </body>
 </html>

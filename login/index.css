@@ -6,6 +6,7 @@ body,html{
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow-x: hidden;
+    overflow-y: hidden;
 }
 .row{
 	height: 45rem;
@@ -44,7 +45,6 @@ body,html{
     transform: translate(-50%, -50%);
     height: auto;
     width: 15%;
-    display: none;
 }
 .row .content-side .google_login {
     height: 10rem;
@@ -58,11 +58,56 @@ body,html{
     transform: translate(-50%, 0%);
     width: 18rem;
 }
-.row .content-side .google_login .social_logins .google_signin {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.g-sign-in-button {
+  margin: 10px;
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  background-color: #4285f4;
+  color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+}
+.g-sign-in-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+  box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+}
+.g-sign-in-button:active {
+  background-color: #3367D6;
+  transition: background-color 0.2s;
+}
+.g-sign-in-button .content-wrapper {
+  height: 100%;
+  width: 100%;
+  border: 1px solid transparent;
+}
+.g-sign-in-button img {
+    width: 18px;
+    height: 18px;
+    margin-top: -8px;
+}
+.g-sign-in-button .logo-wrapper {
+   padding: 15px;
+   background:#fff;
+   width: 48px;
+   height: 100%;
+   border-radius: 1px; 
+   display: inline-block;
+}
+.g-sign-in-button .text-container {
+    font-family: Roboto,arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: .21px;
+    font-size: 16px;
+    line-height: 48px;
+    vertical-align: top;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    width: 180px;
 }
 
 .row .image-side {
@@ -102,15 +147,16 @@ body,html{
     transform: translate(-50%, -50%);
     height: auto;
     width: 15%;
-    display: block;
 }
-.row .content-side .google_login .social_logins .google_signin {
-	position: absolute;
-    top: 100%;
+.row .content-side .google_login .social_logins {
+	height: 5rem;
+    position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
+    width: 18rem;
 }
-.row .content-side .google_login {
+/*.row .content-side .google_login {
     position: relative;
 }
 .row .content-side .google_login .social_logins .google_signin {
@@ -118,7 +164,7 @@ body,html{
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+}*/
 .row .content-side .bg-image{
 	position: relative;
     height: 26rem;
@@ -152,7 +198,6 @@ body,html{
 	    transform: translate(0%, -50%);
 	    height: auto;
 	    width: 15%;
-	    display: block;
 	}
 	.row .content-side  .google_login .social_logins{
 	    height: 5rem;
@@ -162,6 +207,14 @@ body,html{
 	    transform: translate(-50%, 50%);
 	    width: 18rem;
 	}
+    .row .content-side .google_login .social_logins{
+        height: 5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        width: 18rem;
+    }
 }
 
 @media screen and (max-width: 685px) {
@@ -188,7 +241,6 @@ body,html{
 	    transform: translate(0%, -50%);
 	    height: auto;
 	    width: 15%;
-	    display: block;
 	}
 }
 
@@ -216,6 +268,17 @@ body,html{
 	    transform: translate(0%, -50%);
 	    height: auto;
 	    width: 15%;
-	    display: block;
 	}
+}
+
+@media screen and (max-width: 1024px) {
+
+    .row .content-side .google_login .social_logins{
+        height: 5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 100%);
+        width: 18rem;
+    }
 }
