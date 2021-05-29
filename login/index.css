@@ -57,6 +57,7 @@ body,html{
     left: 50%;
     transform: translate(-50%, 0%);
     width: 18rem;
+    text-align: center;
 }
 
 .g-sign-in-button {
@@ -181,7 +182,7 @@ body,html{
 	    left: 50%;
 	    transform: translate(-50%, -50%);
 	    height: auto;
-	    width: 80%;
+	    width: 60%;
 	}
 	.row .content-side .bg-image .container .doc-img img {
 		position: absolute;
@@ -189,7 +190,7 @@ body,html{
 	    left: 50%;
 	    transform: translate(-50%, -50%);
 	    height: auto;
-	    width: 80%;
+	    width: 60%;
 	}
 	.row .content-side .bg-image .container .logo-img img {
 		position: absolute;
@@ -220,19 +221,19 @@ body,html{
 @media screen and (max-width: 685px) {
 	.row .content-side .bg-image .container .bg-png img {
 		position: absolute;
-	    top: 90%;
+	    top: 70%;
 	    left: 50%;
 	    transform: translate(-50%, -50%);
 	    height: auto;
-	    width: 90%;
+	    width: 80%;
 	}
 	.row .content-side .bg-image .container .doc-img img {
 		position: absolute;
-	    top: 90%;
+	    top: 70%;
 	    left: 50%;
 	    transform: translate(-50%, -50%);
 	    height: auto;
-	    width: 90%;
+	    width: 80%;
 	}
 	.row .content-side .bg-image .container .logo-img img {
 		position: absolute;
@@ -247,7 +248,7 @@ body,html{
 @media screen and (max-width: 580px) {
 	.row .content-side .bg-image .container .bg-png img {
 		position: absolute;
-	    top: 90%;
+	    top: 80%;
 	    left: 50%;
 	    transform: translate(-50%, -50%);
 	    height: auto;
@@ -255,7 +256,7 @@ body,html{
 	}
 	.row .content-side .bg-image .container .doc-img img {
 		position: absolute;
-	    top: 90%;
+	    top: 80%;
 	    left: 50%;
 	    transform: translate(-50%, -50%);
 	    height: auto;
@@ -278,7 +279,8 @@ body,html{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 100%);
+        transform: translate(-50%, 0%);
         width: 18rem;
     }
 }
+
