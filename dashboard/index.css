@@ -66,6 +66,10 @@ body,html{
     text-align: -webkit-center;
 }
 
+.row .content-side  .bg-image .container .toolbar .row .card-col button, .r-icon button {
+    background: transparent;
+    border: none;
+}
 .row .content-side  .bg-image .container .toolbar .row .card-col .card{
     padding: 1rem;
     margin-top: 2rem;
