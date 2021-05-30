@@ -120,14 +120,13 @@ body,html{
 }
 .row .image-side .text-under-logo{
     position: absolute;
-    top: 68%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
     color: #fff;
     text-align: center;
     width: 22rem;
-    font-family: sans-serif;
 }
 
 @media screen and (max-width: 768px) {
