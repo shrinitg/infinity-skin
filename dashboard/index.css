@@ -48,7 +48,7 @@ body,html{
 .row .content-side  .bg-image .container .toolbar {
     background-color: #2a7fba;
     height: 25rem;
-    width: 90%;
+    width: 85%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,6 +85,41 @@ body,html{
     left: 35%;
     transform: translate(-50%, -50%);
     color: #fff;
+}
+
+.illus1{
+    height: auto;
+    width: 6rem;
+    position: absolute;
+    z-index: -1;
+    left: 0%;
+}
+
+.illus2{
+    position: absolute;
+    top: 16%;
+    left: 88%;
+}
+.illus3{
+    position: absolute;
+    z-index: -1;
+    height: 30rem;
+    width: 32rem;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+}
+
+.yellow-diamond {
+    position: absolute;
+    background: #FFDE9B;
+    bottom: 8.5rem;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 50px;
+    right: 1.8rem;
 }
 
 .row .content-side  .bg-image .container .bottom-navbar {
