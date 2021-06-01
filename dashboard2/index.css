@@ -1,0 +1,157 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.f-body{
+    height: 100vh;
+}
+
+.loader-section{
+    position: relative;
+    background-color: black;
+}
+
+.loader-section .content {
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.main-section .content{
+    height: 100vh;
+    position: relative;
+}
+
+.topbar{
+    height: 20vh;
+    position: relative;
+}
+
+.topbar-text{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.toolbar{
+    height: 70vh;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.topbar img{
+    transform: translate(-40%, 0px);
+    position: absolute;
+    z-index: -1;
+}
+
+.toolbar-top{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.tool-box{
+    height: 26vh;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tool-box button{
+    background: transparent;
+    border: none;
+    width: 40%;
+    height: 95%;
+    position: relative;
+}
+
+.tool{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+    text-align: center;
+    transition: 0.3s;
+    width: 80%;
+    height: 75%;
+}
+
+.tool h4{
+    font-weight: 500;
+}
+
+.tool i{
+    font-size: 4rem;
+    margin-top: 15px;
+}
+
+.tool:hover{
+    background-color: #6794EF;
+    color: white;
+}
+.tool:active{
+    background-color: #6794EF;
+    color: white;
+}
+
+.bottom-bar{
+    height: 11vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom-bar .d-flex button{
+    background: transparent;
+    border: none;
+}
+
+.bottom-bar .d-flex i{
+    font-size: 3rem;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.bottom-bar .d-flex i:hover{
+    color: #6794EF;
+}
+.bottom-bar .d-flexi:active{
+    color: #6794EF;
+}
+
+@media screen and (max-width: 992px) {
+    .loader-section{
+        display: none;
+    }
+    
+    .topbar img{
+        left: 13%;
+    }
+}
+
+@media screen and (max-width: 720px) {    
+    .topbar img{
+        left: -4%;
+    }
+}
+
+@media screen and (max-width: 500px) {    
+    .topbar img{
+        left: -70%;
+    }
+}
