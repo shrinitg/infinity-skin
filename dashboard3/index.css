@@ -1,0 +1,92 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+.topbar{
+    position: relative;
+    color: #fff;
+}
+.topbar img{
+    height: 25vh;
+    width: 100%;
+}
+.topbar-text{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+}
+.topbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.topbar i{
+    position: absolute;
+    font-size: 2rem;
+    top: 25%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+.toolbar{
+    position: relative;
+    height: 60vh;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.toolbar .toolbar-top{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-row1{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    height: 32vh;
+}
+.card{
+    height: 10rem;
+    text-align: center;
+    transition: 0.3s;
+}
+.card i{
+    font-size: 65px;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.card:hover{
+    background-color: red;
+    color: #fff;
+}
+.bottom-bar{
+    height: 11vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.bottom-bar button{
+    background: transparent;
+    border: none;
+}
+
+.bottom-bar i{
+    font-size: 3rem;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.bottom-bar i:hover{
+    color: #6794EF;
+}
+.bottom-bar i:active{
+    color: #6794EF;
+}
